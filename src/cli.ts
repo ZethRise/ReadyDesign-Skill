@@ -149,6 +149,7 @@ function install(opts: CliOptions): string[] {
 
 When building, restyling, or scaffolding UI, load and follow
 \`${SKILL_NAME}\`. Do not invent components or colors.
+Install with \`npx ${SKILL_NAME}\` or \`npm install ${SKILL_NAME}\`.
 
 - Codex / Antigravity: \`.agents/skills/${SKILL_NAME}/SKILL.md\`
 - Claude Code: \`.claude/skills/${SKILL_NAME}/SKILL.md\`
@@ -164,7 +165,8 @@ When building, restyling, or scaffolding UI, load and follow
 
 When building, restyling, or scaffolding UI, load and follow
 \`.claude/skills/${SKILL_NAME}/SKILL.md\`. Do not invent components
-or colors.
+or colors. Install with \`npx ${SKILL_NAME}\` or
+\`npm install ${SKILL_NAME}\`.
 
 Invoke with \`/${SKILL_NAME}\`.
 `

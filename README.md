@@ -1,8 +1,10 @@
 # ReadyDesign Skill
 
+[![npm](https://img.shields.io/npm/v/readydesign-skill.svg)](https://www.npmjs.com/package/readydesign-skill)
+
 An [Agent Skills](https://agentskills.io) package that forces AI coding agents to build UI from **six official component sources only**. The agent must web-fetch each site one-by-one and install the real components those pages ship. Memory, guesses, and "inspired by" rebuilds are not allowed.
 
-Works with **Claude Code**, **Codex**, **Antigravity 2.0**, and **Grok**.
+**v1.0.0** on [npm](https://www.npmjs.com/package/readydesign-skill). Works with **Claude Code**, **Codex**, **Antigravity 2.0**, and **Grok**. Requires Node.js 18+.
 
 ## Allowed sources
 

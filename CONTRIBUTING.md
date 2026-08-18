@@ -32,7 +32,14 @@ Do not add a second component catalog in `references/` unless `SKILL.md` tells t
 4. If you touch `src/cli.ts`, run `npm install` and `npm run build`, then `node dist/cli.js --help`.
 5. Open a pull request that says what changed and which official page you fetched to justify a URL or install-command edit.
 
-Do not commit npm tokens or `.npmrc` auth lines. Publish with `npm run build && npm publish` after bumping `package.json`.
+Do not commit npm tokens or `.npmrc` auth lines.
+
+## Release
+
+1. Bump `version` in `package.json` (semver).
+2. `npm run build`
+3. `npm publish --access public --otp=<code>`
+4. `git tag v<version> && git push origin main --tags`
 
 ## Issues
 
