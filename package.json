@@ -1,6 +1,6 @@
 {
   "name": "readydesign-skill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Agent skill that forces UI work onto shadcn/ui, Ant Design, Kokonut UI, Motion, Bklit, and sashimi UI — fetch official components only.",
   "license": "MIT",
   "author": "ZethRise",

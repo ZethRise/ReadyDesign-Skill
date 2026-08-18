@@ -23,7 +23,7 @@ Do not add a second component catalog in `references/` unless `SKILL.md` tells t
 
 ## Pull requests
 
-1. Fork [ZethRise/ReadyDesign-Skill](https://github.com/ZethRise/ReadyDesign-Skill) and branch from `main`.
+1. Fork [ZethRise/ReadyDesign-Skill](https://github.com/ZethRise/ReadyDesign-Skill) and branch from `master`.
 2. Keep `SKILL.md` under 500 lines. Move extra material only if the agent is told exactly when to read it.
 3. After editing `SKILL.md`, confirm:
    - `name` is `readydesign-skill`
@@ -39,7 +39,7 @@ Do not commit npm tokens or `.npmrc` auth lines.
 1. Bump `version` in `package.json` (semver).
 2. `npm run build`
 3. `npm publish --access public --otp=<code>`
-4. `git tag v<version> && git push origin main --tags`
+4. `git tag v<version> && git push origin master --tags`
 
 ## Issues
 
