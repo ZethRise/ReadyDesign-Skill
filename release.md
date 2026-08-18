@@ -1,5 +1,15 @@
 # ReadyDesign `v1.0.1`
 
+[![npm version](https://img.shields.io/npm/v/readydesign-skill?logo=npm&logoColor=white&label=npm)](https://www.npmjs.com/package/readydesign-skill)
+[![npm downloads](https://img.shields.io/npm/dt/readydesign-skill?logo=npm&logoColor=white&label=downloads)](https://www.npmjs.com/package/readydesign-skill)
+[![GitHub stars](https://img.shields.io/github/stars/ZethRise/ReadyDesign-Skill?style=flat&logo=github&label=stars)](https://github.com/ZethRise/ReadyDesign-Skill/stargazers)
+
+[![Agent Skills](https://img.shields.io/badge/Agent_Skills-compatible-7c3aed)](https://agentskills.io)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-supported-d97706)](https://code.claude.com)
+[![Codex](https://img.shields.io/badge/Codex-supported-10a37f)](https://developers.openai.com/codex)
+[![Antigravity](https://img.shields.io/badge/Antigravity_2.0-supported-4285f4)](https://antigravity.google)
+[![Grok](https://img.shields.io/badge/Grok-supported-111111)](https://grok.com)
+
 **Six official component libraries. Live docs only. No guesses.**
 
 ReadyDesign is an [Agent Skills](https://agentskills.io) package for AI coding agents. When it is installed, the agent may build UI from **these six sources and nothing else**. It must open each official site **one URL at a time**, then install the real component that page ships.
