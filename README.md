@@ -66,6 +66,7 @@ Agents also load it automatically when the task matches the skill description (U
 ```
 SKILL.md          Agent instructions (single source of truth)
 src/cli.ts        Installer CLI (TypeScript 7)
+src/postinstall.cts  npm postinstall hook (TypeScript CommonJS)
 AGENTS.md         Pointer for Codex / Antigravity
 CLAUDE.md         Pointer for Claude Code
 LICENSE           MIT

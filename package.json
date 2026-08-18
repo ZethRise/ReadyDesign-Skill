@@ -12,7 +12,6 @@
     "SKILL.md",
     "AGENTS.md",
     "CLAUDE.md",
-    "bin/postinstall.cjs",
     "dist",
     "LICENSE",
     "README.md"
@@ -20,7 +19,7 @@
   "scripts": {
     "build": "tsc",
     "prepack": "tsc",
-    "postinstall": "node bin/postinstall.cjs",
+    "postinstall": "node dist/postinstall.cjs",
     "readydesign-skill": "node dist/cli.js"
   },
   "engines": {

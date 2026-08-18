@@ -16,7 +16,7 @@ Thanks for helping keep ReadyDesign strict. The point of this skill is that agen
 | Sources, fetch order, color lock, questions, install commands | `SKILL.md` |
 | How humans install or invoke the skill | `README.md` |
 | Host discovery pointers only | `AGENTS.md`, `CLAUDE.md` |
-| Installer CLI | `src/cli.ts` (TypeScript 7; `npm run build` emits `dist/`) |
+| Installer CLI | `src/cli.ts` and `src/postinstall.cts` (TypeScript 7; `npm run build` emits `dist/`) |
 | License text | `LICENSE` |
 
 Do not add a second component catalog in `references/` unless `SKILL.md` tells the agent when to load it. Agents must still fetch the live site.
