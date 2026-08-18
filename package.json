@@ -1,0 +1,54 @@
+{
+  "name": "readydesign-skill",
+  "version": "1.0.0",
+  "description": "Agent skill that forces UI work onto shadcn/ui, Ant Design, Kokonut UI, Motion, Bklit, and sashimi UI — fetch official components only.",
+  "license": "MIT",
+  "author": "ZethRise",
+  "type": "commonjs",
+  "bin": {
+    "readydesign-skill": "dist/cli.js"
+  },
+  "files": [
+    "SKILL.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "bin/postinstall.cjs",
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepack": "tsc",
+    "postinstall": "node bin/postinstall.cjs",
+    "readydesign-skill": "node dist/cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "typescript": "^7.0.2"
+  },
+  "keywords": [
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "antigravity",
+    "grok",
+    "shadcn",
+    "antd",
+    "kokonut",
+    "motion",
+    "bklit",
+    "sashimi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZethRise/ReadyDesign-Skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZethRise/ReadyDesign-Skill/issues"
+  },
+  "homepage": "https://github.com/ZethRise/ReadyDesign-Skill#readme"
+}

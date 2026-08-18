@@ -2,3 +2,6 @@
 *.swp
 *~
 Thumbs.db
+node_modules/
+dist/
+.npmrc

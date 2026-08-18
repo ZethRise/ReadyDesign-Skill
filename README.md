@@ -19,30 +19,30 @@ The full fetch protocol, color lock, and question bank live in [`SKILL.md`](SKIL
 
 ## Install
 
-Clone this repo, then copy or symlink the skill folder into the host's discovery path. The folder name must stay `readydesign-skill`.
-
 ```bash
-git clone https://github.com/ZethRise/ReadyDesign-Skill.git
-cd ReadyDesign-Skill
+npx readydesign-skill
 ```
 
-| Host | Project path | User path |
+or
+
+```bash
+npm install readydesign-skill
+```
+
+Both write `SKILL.md` into the current project's agent folders. `npm install` does that on postinstall. Add `--global` to also install user-wide:
+
+```bash
+npx readydesign-skill --global
+```
+
+| Host | Project path | User path (`--global`) |
 | --- | --- | --- |
 | Claude Code | `.claude/skills/readydesign-skill/` | `~/.claude/skills/readydesign-skill/` |
 | Codex | `.agents/skills/readydesign-skill/` | `~/.agents/skills/readydesign-skill/` |
 | Antigravity 2.0 | `.agents/skills/readydesign-skill/` | `~/.gemini/config/skills/readydesign-skill/` |
 | Grok | `.grok/skills/readydesign-skill/` | `~/.grok/skills/readydesign-skill/` |
 
-This repo already contains those project paths as links back to `SKILL.md`. To use it inside another project:
-
-```bash
-mkdir -p .claude/skills .agents/skills .grok/skills
-ln -sfn /path/to/ReadyDesign-Skill .claude/skills/readydesign-skill
-ln -sfn /path/to/ReadyDesign-Skill .agents/skills/readydesign-skill
-ln -sfn /path/to/ReadyDesign-Skill .grok/skills/readydesign-skill
-```
-
-Or copy only `SKILL.md` into `<host-skills-dir>/readydesign-skill/SKILL.md`.
+Package: [readydesign-skill](https://www.npmjs.com/package/readydesign-skill) on npm. Source: this repo.
 
 ## Invoke
 
@@ -63,6 +63,7 @@ Agents also load it automatically when the task matches the skill description (U
 
 ```
 SKILL.md          Agent instructions (single source of truth)
+src/cli.ts        Installer CLI (TypeScript 7)
 AGENTS.md         Pointer for Codex / Antigravity
 CLAUDE.md         Pointer for Claude Code
 LICENSE           MIT
